@@ -1,0 +1,14 @@
+<span class="btn btn-floating pull-right" data-dismiss="modal" aria-label="Close">
+    <i class="material-icons"></i>
+</span>
+element :selectorPorClasse, '.btn btn-floating pull-right'
+
+
+<input class="text-input js-search-input" type="text" name="q" placeholder="Buscar em nosso site" autocomplete="off">
+element :selectorPorClasse, '.text-input js-search-input'
+
+
+<a href="https://orgames.com.br/quem-somos/">
+				Quem Somos
+</a>
+element :selectorPorElementosAtibutoeValor, 'a[href="https://orgames.com.br/quem-somos/"]'
